@@ -1,0 +1,19 @@
+Database Management System Interview Notes
+
+1. What is DBMS?
+DBMS is software that manages databases.
+
+2. What is normalization?
+Normalization reduces data redundancy by organizing tables.
+
+3. What is a primary key?
+A primary key uniquely identifies each record in a table.
+
+4. What is a foreign key?
+A foreign key links two tables together.
+
+5. What is ACID property?
+ACID stands for Atomicity, Consistency, Isolation, Durability.
+
+6. What is indexing?
+Indexing improves search speed in databases.

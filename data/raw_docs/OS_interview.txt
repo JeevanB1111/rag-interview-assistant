@@ -1,0 +1,16 @@
+Operating Systems Interview Notes
+
+1. What is a process?
+A process is a program in execution.
+
+2. What is a thread?
+A thread is a lightweight unit of execution within a process.
+
+3. What is deadlock?
+Deadlock occurs when processes wait indefinitely for resources.
+
+4. What is paging?
+Paging is a memory management scheme that eliminates fragmentation.
+
+5. What is virtual memory?
+Virtual memory allows execution of processes larger than physical memory.

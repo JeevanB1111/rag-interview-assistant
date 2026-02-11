@@ -1,0 +1,24 @@
+Data Structures and Algorithms Interview Notes
+
+1. What is time complexity?
+Time complexity measures the amount of time an algorithm takes relative to input size.
+
+2. What is space complexity?
+Space complexity measures the amount of memory used by an algorithm.
+
+3. What is the difference between array and linked list?
+Array uses contiguous memory and allows random access.
+Linked list uses nodes connected via pointers and allows dynamic size.
+
+4. What is a stack?
+Stack is a LIFO (Last In First Out) data structure.
+
+5. What is a queue?
+Queue is a FIFO (First In First Out) data structure.
+
+6. What is hashing?
+Hashing maps data to fixed-size values using a hash function.
+
+7. What is dynamic programming?
+Dynamic programming solves problems by breaking them into overlapping subproblems and storing results.
+TEST

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RAG Interview Assistant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            margin: 40px;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 700px;
+            margin: auto;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 10px 15px;
+            border-radius: 6px;
+            border: none;
+            background-color: #2563eb;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1e4fc4;
+        }
+
+        .section {
+            margin-top: 20px;
+        }
+
+        .answer {
+            background-color: #eef2ff;
+            padding: 15px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>CS Interview RAG Assistant</h1>
+
+    <form method="post" action="/ask">
+        <input type="text" name="question" placeholder="Ask a CS interview question..." required>
+        <button type="submit">Ask</button>
+    </form>
+
+    {% if question %}
+    <div class="section">
+        <h3>Question:</h3>
+        <p>{{ question }}</p>
+    </div>
+
+    <div class="section">
+        <h3>Answer:</h3>
+        <div class="answer">
+            {{ answer }}
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
